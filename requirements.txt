@@ -4,3 +4,8 @@ streamlit_lottie==0.0.5
 pytube==15.0.0
 google-api-python-client==2.97.0
 pandas==2.0.3
+matplotlib==3.7.2
+streamlit-extras==0.3.2
+keras==2.13.1
+numpy==1.24.3
+emoji==2.8.0
