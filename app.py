@@ -91,7 +91,7 @@ if youtube_url:
         video_id = extract_video_id(youtube_url)
         st.write(f"Video id: {video_id}")
 
-        api_key = ""
+        api_key = os.getenv("YOUTUBE_KEY")
         youtube_service = build("youtube", "v3", developerKey=api_key)
 
         try:
