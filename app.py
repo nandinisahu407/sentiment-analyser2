@@ -151,7 +151,8 @@ if youtube_url:
     MAX_WORDS = 10000
     MAX_SEQUENCE_LENGTH = 1000
 
-    input_directory = r'C:\Users\Nandini\Documents\nanu\Youtube Comment Analysis\t'
+    # input_directory = r'C:\Users\Nandini\Documents\nanu\Youtube Comment Analysis\t'
+    input_directory = os.getcwd().join("t");
 
     positive_count = 0
     negative_count = 0
